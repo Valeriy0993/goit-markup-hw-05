@@ -772,11 +772,6 @@ img {
   padding-bottom: 4px;
 }
 
-.modal-input-wrap {
-  position: relative;
-  margin-bottom: 8px;
-}
-
 .modal-icon {
   fill: var(--color-navy-blue);
   position: absolute;
