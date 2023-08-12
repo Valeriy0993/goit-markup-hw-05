@@ -600,10 +600,15 @@ img {
   background-color: var(--color-green);
 }
 
-.footer-form {
+.footer-form-container {
   display: flex;
   flex-direction: column;
   margin-left: 79px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-form-label {
@@ -615,7 +620,13 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-label {
+}
+
 .footer-form-email {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 264px;
   height: 40px;
   background-color: transparent;
@@ -626,6 +637,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   outline: none;
   color: var(--color-white);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-email::placeholder {
@@ -636,12 +648,11 @@ img {
 }
 
 .footer-form-btn {
-  display: inline-flex;
+  display: flex;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  width: 165px;
+  mai-width: 165px;
   height: 40px;
   color: var(--color-white);
   text-align: center;
@@ -653,10 +664,12 @@ img {
   background: var(--color-iris);
   border: none;
   margin-left: 24px;
+  cursor: pointer;
 }
 
 .footer-icon-subscribe {
   fill: var(--color-white);
+  margin-left: 16px;
 }
 
 /*! ----------FOOTER---------- */
@@ -744,6 +757,10 @@ img {
   margin-bottom: 16px;
 }
 
+.modal-field {
+  margin-bottom: 8px;
+}
+
 .modal-input {
   width: 100%;
   height: 40px;
@@ -751,7 +768,7 @@ img {
   padding-left: 38px;
   padding-right: 20px;
   border-radius: 4px;
-  border: 1px solid var(--color-navy-blue, rgba(46, 47, 66, 0.4));
+  border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -765,11 +782,18 @@ img {
 }
 
 .modal-label {
+  display: block;
   color: var(--color-light-slate);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
+  padding-top: 8px;
+}
+
+.modal-input-wrap {
+  position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-icon {
@@ -788,7 +812,7 @@ img {
   padding: 8px 16px;
   margin-bottom: 16px;
   border-radius: 4px;
-  border: 1px solid var(--color-navy-blue, rgba(46, 47, 66, 0.4));
+  border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
