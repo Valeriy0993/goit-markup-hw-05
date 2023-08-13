@@ -215,6 +215,7 @@ img {
 .address-menu {
   font-style: normal;
   margin-left: auto;
+  margin-left: 332px;
 }
 
 /*? ----------HEADER---------- */
@@ -546,6 +547,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
   max-width: 264px;
 }
 
@@ -663,7 +665,6 @@ img {
   border-radius: 4px;
   background: var(--color-iris);
   border: none;
-  margin-left: 24px;
   cursor: pointer;
 }
 
@@ -788,7 +789,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
-  padding-top: 8px;
 }
 
 .modal-input-wrap {
@@ -856,6 +856,7 @@ img {
   width: 16px;
   height: 16px;
   border-radius: 2px;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   align-items: center;
   justify-content: center;
