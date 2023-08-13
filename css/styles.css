@@ -652,7 +652,7 @@ img {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  mai-width: 165px;
+  max-width: 165px;
   height: 40px;
   color: var(--color-white);
   text-align: center;
